@@ -11,14 +11,14 @@ from azure.ai.inference.tracing import AIInferenceInstrumentor
 # load environment variables from the credentials.env file
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv("credentials.env", override=True)
 
 # Set "./assets" as the path where assets are stored, resolving the absolute path:
 ASSET_PATH = pathlib.Path(__file__).parent.resolve() / "assets"
 
 # Configure an root app logger that prints info level logs to stdout
 logger = logging.getLogger("app")
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 logger.addHandler(logging.StreamHandler(stream=sys.stdout))
 
 

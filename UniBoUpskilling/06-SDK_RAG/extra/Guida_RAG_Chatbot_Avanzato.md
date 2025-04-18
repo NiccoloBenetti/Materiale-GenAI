@@ -39,7 +39,7 @@ Nel Resource Group, crea una risorsa **Azure AI Search**.
 ## 4. Collega Azure AI Search ad AI Foundry
 
 1. Vai al tuo progetto AI Foundry.  
-2. Dal menu a sinistra, seleziona **Management Center**.  
+2. Nella sezione **Overview**, clicca su **Management Center**.  
 3. In **Connected resources**, verifica se c’è già un collegamento ad Azure AI Search.  
 4. Se non c’è, clicca su **New connection > Azure AI Search**.  
 5. Seleziona il tuo servizio di AI Search e aggiungi la connessione.  

@@ -17,7 +17,7 @@ from azure.search.documents.indexes.models import (
     SearchIndex
 )
 
-load_dotenv()
+load_dotenv("credentials.env", override=True)
 
 # create a project client using environment variables loaded from the credentials.env file
 project = AIProjectClient.from_connection_string(

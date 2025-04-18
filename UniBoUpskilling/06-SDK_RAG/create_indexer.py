@@ -11,7 +11,7 @@ from create_search_index import index_name, search_connection
 from create_skillset import skillset_name
 from create_datasource_connection import data_source
 
-load_dotenv()
+load_dotenv("credentials.env", override=True)
 
 # Create an indexer  
 indexer_name = os.environ["AISEARCH_INDEXER_NAME"] 

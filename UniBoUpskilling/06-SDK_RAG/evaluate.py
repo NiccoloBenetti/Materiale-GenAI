@@ -10,7 +10,7 @@ from chat_with_docs import chat_with_docs
 # load environment variables from the credentials.env file at the root of this repo
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv("credentials.env", override=True)
 
 # create a project client using environment variables loaded from the credentials.env file
 project = AIProjectClient.from_connection_string(
