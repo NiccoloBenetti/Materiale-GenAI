@@ -1,4 +1,0 @@
-azure-ai-evaluation=1.3.0
-azure-ai-inference==1.0.0b9
-azure-ai-ml==1.26.1
-azure-ai-projects==1.0.0b7
